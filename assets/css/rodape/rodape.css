@@ -57,7 +57,7 @@
     font-size: 1.2em;
     font-weight: 400;
     font-family: var(--fonte-principal);
-    border: none;
+    border: transparent;
     width: 96%;
     margin: 0.7em 0;
     padding-top: 2em;
@@ -78,7 +78,7 @@
     font-size: 1.2em;
     font-weight: 400;
     font-family: var(--fonte-principal);
-    border: none;
+    border: transparent;
     width: 98%;
     padding: 1.5em 0;
     margin: 0.5em 0;
@@ -165,7 +165,7 @@
 
 @media screen and (min-width: 1728px) {
     .form {
-        margin-right: 33.5em;
+        margin-right: 37.5em;
         margin-top: 1em;
     }
 
