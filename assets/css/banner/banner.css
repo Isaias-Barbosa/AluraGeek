@@ -63,6 +63,25 @@
 
 }
 
+@media screen and (min-width: 1300px) {
+
+    .banner {
+        padding: 1em 1em;
+        height: calc(24vw - 30px);
+    }
+
+    .banner__texto {
+        padding-top: 5em;
+        padding-left: 4.5em;
+
+    }
+
+    .botao__p {
+        padding-left: 4.5em;
+    }
+
+}
+
 @media screen and (min-width: 1440px) {
     .banner {
         padding: 1em 1em;
