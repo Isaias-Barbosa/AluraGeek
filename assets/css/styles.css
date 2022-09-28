@@ -1,0 +1,25 @@
+@import url("./cabecalho/cabecalho.css");
+@import url("./banner/banner.css");
+@import url("./main/produtos.css");
+@import url("./rodape/rodape.css");
+@import url("./footer/footer.css");
+
+:root {
+    --cor-de-fundo: #F5F5F5;
+    --branco: #FFFFFF;
+    --botao-azul: #2A7AE4;
+    --fonte-principal: "Raleway";
+    --preto: #000000;
+    --cinza-claro: #858585;
+    --azul-claro: #EAF2FD;
+    --preto-titulo: #464646;
+    --preto-mensagem: #A2A2A2;
+    --search: #F5F5F5;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}

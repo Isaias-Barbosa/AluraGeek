@@ -1,0 +1,158 @@
+.sobre {
+    background: var(--azul-claro);
+
+}
+
+.sobre__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.sobre__li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em auto;
+}
+
+.sobre__nos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0.1em 0;
+}
+
+.sobre__titulo {
+    margin: 1em 0;
+    font-size: 1em;
+}
+
+/*CONTATO */
+
+.contato__titulo {
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--preto-titulo);
+
+}
+
+.form {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.nome__input {
+    position: absolute;
+    margin: 1.4em 1em;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: var(--preto-mensagem);
+}
+
+.nome__form {
+    border-radius: 4px;
+    background: var(--branco);
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    border: none;
+    width: 96%;
+    margin: 0.7em 0;
+    padding-top: 2em;
+    padding-left: 0.7em;
+}
+
+.text__input {
+    position: absolute;
+    margin: 1em 0.5em;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: var(--preto-mensagem);
+}
+
+.text__form {
+    border-radius: 4px;
+    background: var(--branco);
+    font-size: 1.2em;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    border: none;
+    width: 98%;
+    padding: 1.5em 0;
+    margin: 0.5em 0;
+    padding-top: 2em;
+    padding-left: 0.5em;
+
+}
+
+.banner__botao--form {
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid var(--botao-azul);
+    background: var(--botao-azul);
+    color: var(--branco);
+    text-decoration: none;
+    padding: 0.8em 1em;
+    width: 45%;
+}
+
+.botao__form {
+    margin: 1.5em 0;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .sobre__container {
+        flex-direction: row;
+    }
+
+    .sobre__nos {
+        margin-right: 3em;
+        text-align: justify;
+    }
+
+    .sobre__li img {
+        margin-right: 3em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .sobre__li {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .logo__sobre {
+        margin-top: 2em;
+    }
+
+    .form {
+        margin-right: 10.5em;
+        margin-top: 1em;
+    }
+
+    .contato__titulo {
+        font-size: 1.3em;
+    }
+
+
+}
+
+@media screen and (min-width: 1728px) {
+    .form {
+        margin-right: 33.5em;
+        margin-top: 1em;
+    }
+
+    .nome__form {
+        width: 160%;
+    }
+
+    .text__form {
+        width: 162%;
+    }
+}

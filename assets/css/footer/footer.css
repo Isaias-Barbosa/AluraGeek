@@ -1,0 +1,18 @@
+footer {
+    background: var(--branco);
+    padding: 3.375em 2em;
+    margin: 0;
+
+}
+
+.container__footer {
+    align-items: center;
+    text-align: center;
+
+}
+
+.footer__titulo,
+.footer__ano {
+    font-size: 1.1em;
+    font-weight: 500;
+}
