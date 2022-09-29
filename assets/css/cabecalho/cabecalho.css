@@ -24,6 +24,11 @@
     margin: 0 1em;
 }
 
+.logo__btn--produto {
+    width: 80%;
+    margin: 0 1em;
+}
+
 .login__btn {
     text-align: center;
     text-decoration: none;
@@ -39,6 +44,10 @@
 }
 
 .cabecalho__pesquisa--login {
+    display: none;
+}
+
+.cabecalho__pesquisa--produto {
     display: none;
 }
 
@@ -85,6 +94,10 @@
         width: 56%;
     }
 
+    .logo__btn--produto {
+        width: 56%;
+    }
+
     .cabecalho__pesquisa {
         background: var(--search);
         border-radius: 20px;
@@ -100,6 +113,20 @@
     }
 
     .cabecalho__pesquisa--login {
+        background: var(--search);
+        border-radius: 20px;
+        font-size: 0.9em;
+        font-weight: 400;
+        font-family: var(--fonte-principal);
+        color: var(--preto-mensagem);
+        padding: 1em 1em;
+        width: 272px;
+        border: none;
+        display: block;
+        margin: 0 0 0 1em;
+    }
+
+    .cabecalho__pesquisa--produto {
         background: var(--search);
         border-radius: 20px;
         font-size: 0.9em;
@@ -151,6 +178,14 @@
         padding-left: 1em;
     }
 
+    .cabecalho__pesquisa--produto {
+        font-size: 1em;
+        padding: 0.8em 0;
+        width: 30em;
+        margin-left: 1.5em;
+        padding-left: 1em;
+    }
+
     .login__btn {
         margin-left: 10.3em;
         padding: 1em 3em;
@@ -188,6 +223,14 @@
         padding-left: 1em;
     }
 
+    .cabecalho__pesquisa--produto {
+        font-size: 1em;
+        padding: 0.8em 0;
+        width: 30em;
+        margin-left: -4em;
+        padding-left: 1em;
+    }
+
     .login__btn {
         margin-left: 16.3em;
         padding: 1em 2em;
@@ -196,6 +239,11 @@
     .logo__btn--login {
         width: 40%;
         margin: 0 8em;
+    }
+
+    .logo__btn--produto {
+        width: 40%;
+        margin: 0 11.5em;
     }
 
     .login__btn:hover {

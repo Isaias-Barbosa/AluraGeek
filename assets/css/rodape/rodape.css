@@ -26,6 +26,11 @@
 
 .sobre__nos a {
     text-decoration: none;
+    color: var(--fonte-principal);
+}
+
+.sobre__nos a:hover {
+    color: var(--botao-azul);
 }
 
 .sobre__titulo {

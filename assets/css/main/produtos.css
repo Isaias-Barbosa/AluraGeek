@@ -21,7 +21,15 @@
     font-size: 1em;
     font-weight: 700;
     color: var(--botao-azul);
+    text-decoration: none;
+}
 
+.produtos__itens a {
+    text-decoration: none;
+}
+
+.produtos__itens a:hover {
+    color: var(--botao-azul);
 }
 
 .fa-solid {
@@ -39,8 +47,6 @@
 .produtos__itens:nth-child(n+5) {
     display: none;
 }
-
-
 
 .produtos__itens {
     margin: 0.3em 1em;
