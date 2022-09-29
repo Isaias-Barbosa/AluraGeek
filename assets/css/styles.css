@@ -3,6 +3,7 @@
 @import url("./main/produtos.css");
 @import url("./rodape/rodape.css");
 @import url("./footer/footer.css");
+@import url("./sessao/login.css");
 
 :root {
     --cor-de-fundo: #F5F5F5;

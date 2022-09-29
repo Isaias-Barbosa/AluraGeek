@@ -19,11 +19,16 @@
     margin: 3em 1em;
 }
 
+.logo__btn--login {
+    width: 80%;
+    margin: 0 1em;
+}
+
 .login__btn {
     text-align: center;
     text-decoration: none;
     border: 2px solid var(--botao-azul);
-    padding: 1em 2.5em;
+    padding: 1em 2.9em;
     margin-left: 1.8em;
     width: 15%;
     color: var(--botao-azul);
@@ -33,10 +38,23 @@
     display: none;
 }
 
+.cabecalho__pesquisa--login {
+    display: none;
+}
+
 .lupa {
+    position: relative;
     align-items: center;
     width: 18px;
-    margin-left: 2.5em;
+    margin-left: 3em;
+    display: block;
+}
+
+.lupa--login {
+    position: relative;
+    align-items: center;
+    width: 18px;
+    margin-left: 8em;
     display: block;
 }
 
@@ -54,9 +72,17 @@
         display: none;
     }
 
+    .lupa--login {
+        display: none;
+    }
+
     .logo__btn {
         width: 13%;
         margin-left: 1em;
+    }
+
+    .logo__btn--login {
+        width: 26%;
     }
 
     .cabecalho__pesquisa {
@@ -69,6 +95,20 @@
         padding: 1em 1.7em;
         border: none;
         width: 100%;
+        display: block;
+        margin: 0 0 0 1em;
+    }
+
+    .cabecalho__pesquisa--login {
+        background: var(--search);
+        border-radius: 20px;
+        font-size: 0.9em;
+        font-weight: 400;
+        font-family: var(--fonte-principal);
+        color: var(--preto-mensagem);
+        padding: 1em 1em;
+        width: 272px;
+        border: none;
         display: block;
         margin: 0 0 0 1em;
     }
@@ -98,7 +138,7 @@
         margin-left: 7.5em;
     }
 
-    .cabecalho__pesquisa {
+    .cabecalho__pesquisa--login {
         font-size: 1em;
         padding: 0.8em 0;
         width: 30em;
@@ -109,6 +149,11 @@
     .login__btn {
         margin-left: 16.3em;
         padding: 1em 2em;
+    }
+
+    .logo__btn--login {
+        width: 20%;
+        margin: 0 8em;
     }
 }
 
@@ -118,17 +163,22 @@
         margin-left: 11.5em;
     }
 
-    .cabecalho__pesquisa {
+    .cabecalho__pesquisa--login {
         font-size: 1em;
         padding: 0.8em 0;
         width: 30em;
-        margin-left: 1.5em;
+        margin-left: -4em;
         padding-left: 1em;
     }
 
     .login__btn {
         margin-left: 16.3em;
         padding: 1em 2em;
+    }
+
+    .logo__btn--login {
+        width: 20%;
+        margin: 0 8em;
     }
 }
 
