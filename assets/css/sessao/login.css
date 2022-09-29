@@ -48,7 +48,7 @@
     margin: 1em 0;
 }
 
-.banner__botao {
+.banner__botao--login {
     padding: 0.7em 3em;
 
 }
@@ -78,7 +78,7 @@
         margin: 1.6em 0;
     }
 
-    .banner__botao {
+    .banner__botao--login {
 
         padding: 1em 10.3em;
     }
