@@ -49,6 +49,12 @@
 }
 
 .banner__botao--login {
+    border: 2px solid var(--botao-azul);
+    background: var(--botao-azul);
+    color: var(--branco);
+    text-decoration: none;
+    margin: 0 0.3em;
+    font-weight: 600;
     padding: 0.7em 3em;
 
 }
