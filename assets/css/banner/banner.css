@@ -11,13 +11,13 @@
 }
 
 .banner__texto-titulo {
-    font-size: 1.1em;
+    font-size: 1.4em;
     color: var(--branco);
     font-weight: 700;
 }
 
 .banner__texto-descricao {
-    font-size: 0.7em;
+    font-size: 0.9em;
     color: var(--branco);
     font-weight: 600;
     margin: 1em 0;

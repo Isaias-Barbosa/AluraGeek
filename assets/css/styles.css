@@ -18,6 +18,8 @@
     --search: #F5F5F5;
 }
 
+
+
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
