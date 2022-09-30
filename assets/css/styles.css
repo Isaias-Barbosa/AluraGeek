@@ -19,11 +19,36 @@
     --search: #F5F5F5;
 }
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 500;
+}
+
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+    color: inherit;
+}
+
+button {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
 }

@@ -1,26 +1,29 @@
 /*CABEÇALHO 
 */
-.cabecalho {
-    background: var(--branco);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 82px;
-}
 
 .container {
+    padding: 1rem;
+    background-color: var(--branco);
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    position: absolute;
 }
 
+.container--login {
+    padding: 1rem;
+    background-color: var(--branco);
+    display: flex;
+
+    align-items: center;
+}
+
+
 .logo__btn {
-    width: 23%;
-    margin: 3em 1em;
+    width: 6.25rem;
 }
 
 .logo__btn--login {
-    width: 80%;
+    width: 60%;
     margin: 0 1em;
 }
 
@@ -31,12 +34,13 @@
 
 .login__btn {
     text-align: center;
-    text-decoration: none;
-    border: 2px solid var(--botao-azul);
-    padding: 1em 2.9em;
-    margin-left: 1.8em;
-    width: 15%;
+    border: 1px solid var(--botao-azul);
+    padding: 0.75rem 1rem;
     color: var(--botao-azul);
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    width: 8.25rem;
 }
 
 .cabecalho__pesquisa {
@@ -52,18 +56,16 @@
 }
 
 .lupa {
-    position: relative;
-    align-items: center;
-    width: 18px;
-    margin-left: 3em;
-    display: block;
+    padding: .5rem 1rem;
+    border-radius: 1.25rem;
+    border: 0;
 }
 
 .lupa--login {
     position: relative;
     align-items: center;
     width: 18px;
-    margin-left: 8em;
+    margin-left: 7em;
     display: block;
 }
 
@@ -77,17 +79,15 @@
 }
 
 @media screen and (min-width: 768px) {
+
+
+
     .lupa {
         display: none;
     }
 
     .lupa--login {
         display: none;
-    }
-
-    .logo__btn {
-        width: 13%;
-        margin-left: 1em;
     }
 
     .logo__btn--login {
@@ -99,17 +99,18 @@
     }
 
     .cabecalho__pesquisa {
-        background: var(--search);
+
         border-radius: 20px;
         font-size: 0.9em;
         font-weight: 400;
         font-family: var(--fonte-principal);
         color: var(--preto-mensagem);
-        padding: 1em 1.7em;
+        padding: 1em 1.9em;
         border: none;
-        width: 100%;
+        width: 40%;
         display: block;
-        margin: 0 0 0 1em;
+        margin-right: 4em;
+
     }
 
     .cabecalho__pesquisa--login {
@@ -141,9 +142,12 @@
     }
 
     .login__btn {
-        margin-left: 9em;
-        padding: 0.8em 3.5em;
+        margin-right: 3em;
+        padding: 1em 0;
+        width: 25%;
     }
+
+
 
     .lupa__input {
         position: absolute;
@@ -159,22 +163,22 @@
 
 @media screen and (min-width: 1300px) {
     .logo__btn {
-        width: 13%;
-        margin-left: 7.5em;
+        width: 1%;
+        margin-left: 1.5em;
     }
 
     .cabecalho__pesquisa {
         padding: 0.8em 0;
         width: 40em;
-        margin-left: 1.5em;
+        margin-left: 1em;
         padding-left: 1em;
     }
 
     .cabecalho__pesquisa--login {
         font-size: 1em;
         padding: 0.8em 0;
-        width: 30em;
-        margin-left: 1.5em;
+        width: 20em;
+        margin-left: 1em;
         padding-left: 1em;
     }
 
@@ -187,13 +191,14 @@
     }
 
     .login__btn {
-        margin-left: 10.3em;
-        padding: 1em 3em;
+        margin-right: 7.3em;
+        padding: 1em 2em;
+        width: 15%;
     }
 
     .logo__btn--login {
-        width: 20%;
-        margin: 0 8em;
+        width: 60%;
+        margin: 0 2em;
     }
 
     .login__btn:hover {
@@ -219,7 +224,6 @@
         font-size: 1em;
         padding: 0.8em 0;
         width: 30em;
-        margin-left: -4em;
         padding-left: 1em;
     }
 
@@ -232,8 +236,9 @@
     }
 
     .login__btn {
-        margin-left: 16.3em;
-        padding: 1em 2em;
+        margin-right: 12em;
+        width: 15%;
+        padding: 1em 0;
     }
 
     .logo__btn--login {
@@ -251,6 +256,7 @@
 
     }
 }
+
 
 @media screen and (min-width: 1728px) {
 

@@ -36,29 +36,29 @@
 @media screen and (min-width: 768px) {
     .banner {
         padding: 4em 1em;
-        height: calc(35vw - 30px);
+        height: calc(45vw - 30px);
     }
 
     .banner__texto {
-        padding-top: 4em;
+        padding-top: 1.7em;
     }
 
     .banner__texto-titulo {
         font-size: 3.5em;
         font-weight: 700;
-        margin: 0 0.5em;
+        margin: 0 0.1em;
     }
 
     .banner__texto-descricao {
         font-size: 1.5em;
         font-weight: 700;
-        margin: 1em 1.3em;
+        margin: 1em 0.4em;
     }
 
     .banner__botao {
         font-size: 1em;
         font-weight: 600;
-        margin: 1em 2.2em;
+        margin: 1em 1em;
     }
 
 }
@@ -67,17 +67,17 @@
 
     .banner {
         padding: 1em 1em;
-        height: calc(24vw - 30px);
+        height: calc(27vw - 30px);
     }
 
     .banner__texto {
         padding-top: 5em;
-        padding-left: 4.5em;
+        padding-left: 6.5em;
 
     }
 
     .botao__p {
-        padding-left: 4.5em;
+        padding-left: 6.5em;
     }
 
 }
@@ -90,12 +90,12 @@
 
     .banner__texto {
         padding-top: 8em;
-        padding-left: 8.5em;
+        padding-left: 10em;
 
     }
 
     .botao__p {
-        padding-left: 8.5em;
+        padding-left: 10em;
     }
 
     .banner__botao {
@@ -103,6 +103,7 @@
     }
 }
 
+/*
 @media screen and (min-width: 1728px) {
     .banner {
         padding: 1em 1em;
@@ -114,3 +115,4 @@
         padding-left: 8.5em;
     }
 }
+*/
